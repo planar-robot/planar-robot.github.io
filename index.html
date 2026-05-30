@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-    content="AgenticLab: A Real-World Robot Agent Platform that Can See, Think, and Act">
+    content="PLanAR: Planning-Language-Grounded Agentic Reasoning for Robot Manipulation">
   <meta name="keywords" content="Robotics, Robot Agent Platform, Embodied AI, Vision-Language-Action">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    AgenticLab: A Real-World Robot Agent Platform that Can See, Think, and Act
+    PLanAR: Planning-Language-Grounded Agentic Reasoning for Robot Manipulation
   </title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./static/images/agneticlab_icon.png" />
   <link rel="apple-touch-icon" href="./static/images/agneticlab_icon.png" />
   
-  <meta name="application-name" content="AgenticLab" />
+  <meta name="application-name" content="PLanAR" />
   <meta name="msapplication-TileColor" content="#FFFFFF" />
   <meta name="msapplication-TileImage" content="./static/images/agneticlab_icon.png" />
 
@@ -173,13 +173,13 @@
 <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
   <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
     <video playsinline autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
-      <source src="./static/videos/teaser.mp4?v=2" type="video/mp4">
+      <source src="./static/videos/kitchen/s6_kitchen.mp4" type="video/mp4">
     </video>
   </div>
   <div class="hero-video is-hidden-tablet is-inline-block-mobile"
     style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
     <video playsinline autoplay muted loop style="width: 69%; height: 80%; object-fit: cover;">
-      <source src="./static/videos/teaser.mp4?v=2" type="video/mp4">
+      <source src="./static/videos/kitchen/s6_kitchen.mp4" type="video/mp4">
     </video>
   </div>
   
@@ -195,8 +195,8 @@
     <div class="has-text-centered">
       <!-- Paper Title -->
       <h1 style="font-size: 2.6rem; font-weight: 700; color: #1a202c; margin-bottom: 2.5rem; line-height: 1.25;">
-        AgenticLab: A Real-World Robot Agent Platform<br>
-        that Can See, Think, and Act
+        PLanAR: Planning-Language-Grounded<br>
+        Agentic Reasoning for Robot Manipulation
       </h1>
       
       <!-- Authors row 1 -->
@@ -205,11 +205,12 @@
         <a href="https://www.linkedin.com/in/zhonghao-mai" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Zhonghao Mai</a><sup>1,*</sup>
         <a href="https://zhengtongxu.github.io/website/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Zhengtong Xu</a><sup>1,*</sup>
         <a href="https://scholar.google.com/citations?user=k8jtXiwAAAAJ&hl=en" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Kaidi Zhang</a><sup>1</sup>
+        <a href="https://quan-luu.github.io/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Quan Khanh Luu</a><sup>1</sup>
         <a href="https://scholar.google.com/citations?user=5KhgNnoAAAAJ&hl=en" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Heng Zhang</a><sup>2</sup>
-        <a href="https://zichenmiao.github.io/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Zichen Miao</a><sup>1</sup>
       </div>
       <!-- Authors row 2 -->
       <div style="margin-bottom: 15px; line-height: 2;">
+        <a href="https://zichenmiao.github.io/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Zichen Miao</a><sup>1</sup>
         <a href="https://www.iit.it/people-details/-/people/arash-ajoudani" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Arash Ajoudani</a><sup>2</sup>
         <a href="https://zkingston.com/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Zachary Kingston</a><sup>1</sup>
         <a href="https://web.ics.purdue.edu/~qqiu/" target="_blank" style="font-size: 1.1rem; color: #5B9BD5; margin: 0 8px; text-decoration: none;">Qiang Qiu</a><sup>1</sup>
@@ -223,19 +224,9 @@
       </div>
       <!-- Buttons -->
       <div class="buttons is-centered" style="justify-content:center; gap:12px; flex-wrap:wrap;">
-        <a class="button is-dark is-rounded" href="./static/agenticlab.pdf">
-          <span class="icon"><i class="fas fa-file-pdf"></i></span>
-          <span>PDF</span>
-        </a>
-
         <a class="button is-dark is-rounded" href="https://arxiv.org/pdf/2602.01662">
           <span class="icon"><i class="ai ai-arxiv"></i></span>
           <span>arXiv</span>
-        </a>
-
-        <a class="button is-dark is-rounded" href="https://x.com/Roc_guo/status/2029119630086947109" target="_blank">
-          <span class="icon"><i class="fab fa-twitter"></i></span>
-          <span>Tweet</span>
         </a>
 
         <a class="button is-dark is-rounded" style="opacity:.6; pointer-events:none;">
@@ -248,7 +239,7 @@
       <div style="max-width: 660px; margin: 30px auto 0; background-color: #f5f7f9; padding: 20px 20px 20px 25px; border-left: 5px solid #95BD94; border-radius: 4px;">
         <p style="font-size: 1.1rem; line-height: 1.6; color: #333; margin: 0; display: flex; align-items: center; font-weight: 600;">
           <img src="./static/images/rocket.svg" alt="Rocket" style="width: 24px; height: 24px; margin-right: 12px;" />
-          <span>The full hardware–software stack of AgenticLab will be released.</span>
+          <span>The full hardware–software stack of PLanAR will be released.</span>
         </p>
       </div>
     </div>
@@ -323,7 +314,6 @@
     <!-- Grid of 4 sorting videos -->
     <div class="columns is-multiline is-variable is-4">
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Kitchen</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/sort/s2_sort2.mp4" type="video/mp4">
         </video>
@@ -332,7 +322,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">Lab Scene</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/sort/s4_sort2.mp4" type="video/mp4">
         </video>
@@ -341,7 +330,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Kitchen</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/sort/s6_sort2.mp4" type="video/mp4">
         </video>
@@ -350,7 +338,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Outdoor</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/sort/s7_sort2.mp4" type="video/mp4">
         </video>
@@ -373,7 +360,6 @@
     <!-- Grid of 4 stacking videos -->
     <div class="columns is-multiline is-variable is-4">
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">Lab Scene</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/stacking/s4_stack.mp4" type="video/mp4">
         </video>
@@ -382,7 +368,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Kitchen</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/stacking/s5_stack.mp4" type="video/mp4">
         </video>
@@ -391,7 +376,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Kitchen</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/stacking/s6_stack.mp4" type="video/mp4">
         </video>
@@ -400,7 +384,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 600;">In-the-wild Outdoor</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/stacking/s7_stack.mp4" type="video/mp4">
         </video>
@@ -424,7 +407,6 @@
     <div class="columns is-multiline is-variable is-4">
       <div class="column is-half">
         <div style="position: relative; margin-bottom: 12px;">
-          <p class="has-text-centered" style="font-size: 1.25rem; color: #333; font-weight: 700; margin: 0;">In-the-wild Kitchen</p>
           <div style="position: absolute; top: 0; right: 0;">
             <span style="cursor: pointer; background-color: #95BD94; color: white; padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600;">Solution</span>
             <img src="./static/images/crossword/1.png" alt="Crossword Solution 1" 
@@ -446,7 +428,6 @@
       </div>
       <div class="column is-half">
         <div style="position: relative; margin-bottom: 12px;">
-          <p class="has-text-centered" style="font-size: 1.25rem; color: #333; font-weight: 700; margin: 0;">Lab Scene</p>
           <div style="position: absolute; top: 0; right: 0;">
             <span style="cursor: pointer; background-color: #95BD94; color: white; padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600;">Solution</span>
             <img src="./static/images/crossword/2.png" alt="Crossword Solution 2" 
@@ -468,7 +449,6 @@
       </div>
       <div class="column is-half">
         <div style="position: relative; margin-bottom: 12px;">
-          <p class="has-text-centered" style="font-size: 1.25rem; color: #333; font-weight: 700; margin: 0;">In-the-wild Kitchen</p>
           <div style="position: absolute; top: 0; right: 0;">
             <span style="cursor: pointer; background-color: #95BD94; color: white; padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600;">Solution</span>
             <img src="./static/images/crossword/3.png" alt="Crossword Solution 3" 
@@ -490,7 +470,6 @@
       </div>
       <div class="column is-half">
         <div style="position: relative; margin-bottom: 12px;">
-          <p class="has-text-centered" style="font-size: 1.25rem; color: #333; font-weight: 700; margin: 0;">In-the-wild Kitchen</p>
           <div style="position: absolute; top: 0; right: 0;">
             <span style="cursor: pointer; background-color: #95BD94; color: white; padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600;">Solution</span>
             <img src="./static/images/crossword/4.png" alt="Crossword Solution 4" 
@@ -532,7 +511,6 @@
     <!-- Grid of 4 reorientation videos -->
     <div class="columns is-multiline is-variable is-4">
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">Lab Scene</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/reorientation/obj_ori3_2.mp4" type="video/mp4">
         </video>
@@ -541,7 +519,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">Lab Scene</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/reorientation/s1_obj_ori3_1.mp4" type="video/mp4">
         </video>
@@ -550,7 +527,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Kitchen</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/reorientation/s2_obj_ori2_3.mp4" type="video/mp4">
         </video>
@@ -559,7 +535,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Outdoor</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/reorientation/s7_obj_ori.mp4" type="video/mp4">
         </video>
@@ -582,7 +557,6 @@
     <!-- Grid of 4 kitchen videos (larger) -->
     <div class="columns is-multiline is-variable is-4">
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Lobby</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/kitchen/s4_kitchen.mp4" type="video/mp4">
         </video>
@@ -591,7 +565,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Lobby</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/kitchen/s5_kitchen.mp4" type="video/mp4">
         </video>
@@ -600,7 +573,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Outdoor</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/kitchen/s6_kitchen.mp4" type="video/mp4">
         </video>
@@ -609,7 +581,6 @@
         </div>
       </div>
       <div class="column is-half">
-        <p class="has-text-centered" style="margin-bottom: 12px; font-size: 1.25rem; color: #333; font-weight: 700;">In-the-wild Outdoor</p>
         <video autoplay muted loop playsinline width="100%" style="border: 2px solid #ddd; border-radius: 8px;">
           <source src="./static/videos/kitchen/s7_kitchen.mp4" type="video/mp4">
         </video>
@@ -631,14 +602,14 @@
     <!-- Description with green left border (SONIC style) -->
     <div style="max-width: 1000px; margin: 0 auto 50px; background-color: #f5f7f9; padding: 30px 30px 30px 40px; border-left: 5px solid #95BD94; border-radius: 4px;">
       <p style="font-size: 1.1rem; line-height: 1.8; color: #333; font-style: italic; margin: 0;">
-        AgenticLab executes a closed-loop agentic reasoning pipeline for manipulation that integrates task parsing, grounding, planning, execution, verification, and replanning. The system operates through iterative perception and action cycles, enabling robust performance in unstructured environments.
+        PLanAR executes a closed-loop agentic reasoning pipeline for manipulation that integrates task parsing, grounding, planning, execution, verification, and replanning. The system operates through iterative perception and action cycles, enabling robust performance in unstructured environments.
       </p>
     </div>
     
     <!-- Pipeline diagram (larger) -->
     <div class="has-text-centered" style="margin-bottom: 40px;">
       <a href="./static/images/pipeline.png" target="_blank">
-        <img src="./static/images/pipeline.png" alt="AgenticLab Pipeline" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <img src="./static/images/pipeline.png" alt="PLanAR Pipeline" style="width: 100%; max-width: 100%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
       </a>
       <p style="margin-top: 15px; font-size: 1rem; color: #666;">Click image to view full resolution</p>
     </div>
@@ -728,9 +699,9 @@
       </div>
     </div>
     
-    <!-- 4. Off-the-Shelf VLA vs. AgenticLab -->
+    <!-- 4. Off-the-Shelf VLA vs. PLanAR -->
     <div style="margin-bottom: 40px;">
-      <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">4. Off-the-Shelf VLA vs. AgenticLab</h3>
+      <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">4. Off-the-Shelf VLA vs. PLanAR</h3>
       
       <!-- Video and Chart side by side -->
       <div class="columns is-variable is-6" style="align-items: center;">
@@ -744,11 +715,11 @@
         <!-- Performance Comparison Chart -->
         <div class="column is-3">
           <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Performance Comparison</h4>
-          <img src="./static/images/benchmark/exp5_vla_vs_vlm_comparison.png" alt="VLA vs AgenticLab Performance" style="width: 85%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/benchmark/exp5_vla_vs_vlm_comparison.png" alt="VLA vs PLanAR Performance" style="width: 85%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
       </div>
       <div style="max-width: 1100px; margin: 0 auto;">
-        <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">We compare a π0.5 VLA fine-tuned with 40 demonstrations for sorting and 30 for stacking against the AgenticLab pipeline on both tasks.</p>
+        <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">We compare a π0.5 VLA fine-tuned with 40 demonstrations for sorting and 30 for stacking against the PLanAR pipeline on both tasks.</p>
       </div> 
     </div>
   </div>
@@ -762,7 +733,7 @@
     <!-- Overall description -->
     <div class="content has-text-centered" style="max-width: 900px; margin: 0 auto 50px;">
       <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
-        We analyze two critical components that enable reliable closed-loop robot manipulation in AgenticLab.
+        We analyze two critical components that enable reliable closed-loop robot manipulation in PLanAR.
       </p>
     </div>
     
@@ -798,9 +769,9 @@
     <h2 class="title is-3 is-size-4-mobile" style="margin-bottom: 30px; padding-bottom: 10px; border-bottom: 3px solid #95BD94; display: inline-block;">BibTeX</h2>
     <div class="container">
     <pre style="background-color: #f5f5f5; padding: 20px; border-radius: 6px; text-align: left; overflow-x: auto;"><code>
-@article{guo2026agenticlab,
-  title={AgenticLab: A Real-World Robot Agent Platform that Can See, Think, and Act},
-  author={Guo, Pengyuan and Mai, Zhonghao and Xu, Zhengtong and Zhang, Kaidi and Zhang, Heng and Miao, Zichen and Ajoudani, Arash and Kingston, Zachary and Qiu, Qiang and She, Yu},
+@article{guo2026planar,
+  title={PLanAR: Planning-Language-Grounded Agentic Reasoning for Robot Manipulation},
+  author={Guo, Pengyuan and Mai, Zhonghao and Xu, Zhengtong and Zhang, Kaidi and Luu, Quan Khanh and Zhang, Heng and Miao, Zichen and Ajoudani, Arash and Kingston, Zachary and Qiu, Qiang and She, Yu},
   journal={arXiv preprint arXiv:2602.01662},
   year={2026}
 }
