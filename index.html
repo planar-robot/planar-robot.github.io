@@ -163,7 +163,7 @@
       <li><a href="#abstract">Key Contributions</a></li>
       <li><a href="#tasks">Task Demos</a></li>
       <li><a href="#method">Method</a></li>
-      <li><a href="#benchmark">Benchmarks</a></li>
+      <li><a href="#evaluation">Evaluations</a></li>
       <li><a href="#ablation">Ablation Study</a></li>
       <li><a href="#team">BibTeX</a></li>
     </ul>
@@ -173,13 +173,13 @@
 <section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
   <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
     <video playsinline autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
-      <source src="./static/videos/kitchen/s6_kitchen.mp4" type="video/mp4">
+      <source src="./static/videos/teaser.mp4" type="video/mp4">
     </video>
   </div>
   <div class="hero-video is-hidden-tablet is-inline-block-mobile"
     style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
     <video playsinline autoplay muted loop style="width: 69%; height: 80%; object-fit: cover;">
-      <source src="./static/videos/kitchen/s6_kitchen.mp4" type="video/mp4">
+      <source src="./static/videos/teaser.mp4" type="video/mp4">
     </video>
   </div>
   
@@ -273,8 +273,8 @@
       <!-- Contribution 3 -->
       <div class="column is-half">
         <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); height: 100%; border: 2px solid transparent; border-left: 4px solid #95BD94; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.12)'; this.style.border='2px solid #95BD94'; this.style.borderLeft='4px solid #95BD94'; this.querySelector('h3').style.color='#95BD94'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.08)'; this.style.border='2px solid transparent'; this.style.borderLeft='4px solid #95BD94'; this.querySelector('h3').style.color='#2c3e50'">
-          <h3 style="font-size: 1.3rem; font-weight: 700; color: #2c3e50; margin-bottom: 15px; transition: color 0.3s;">Real-World Embodied Benchmark</h3>
-          <p style="font-size: 1rem; line-height: 1.7; color: #6c757d;">Our benchmark measures grounded perception, spatial reasoning, and long-horizon decision-making under closed-loop execution on physical robots.</p>
+          <h3 style="font-size: 1.3rem; font-weight: 700; color: #2c3e50; margin-bottom: 15px; transition: color 0.3s;">Real-World Embodied Evaluation</h3>
+          <p style="font-size: 1rem; line-height: 1.7; color: #6c757d;">Our evaluation measures grounded perception, spatial reasoning, and long-horizon decision-making under closed-loop execution on physical robots.</p>
         </div>
       </div>
       
@@ -625,10 +625,10 @@
   </div>
 </section>
 
-<!-- VLMs as Robot Agent Benchmarks Section -->
-<section class="section is-medium" id="benchmark" style="padding-top: 3rem; padding-bottom: 3rem;">
+<!-- VLMs as Robot Agent Evaluations Section -->
+<section class="section is-medium" id="evaluation" style="padding-top: 3rem; padding-bottom: 3rem;">
   <div class="container is-widescreen">
-    <h2 class="title is-3 has-text-centered" style="display: inline-block; position: relative; left: 50%; transform: translateX(-50%); padding-bottom: 15px; border-bottom: 4px solid #95BD94; margin-bottom: 40px;">VLMs as Robot Agent Benchmarks</h2>
+    <h2 class="title is-3 has-text-centered" style="display: inline-block; position: relative; left: 50%; transform: translateX(-50%); padding-bottom: 15px; border-bottom: 4px solid #95BD94; margin-bottom: 40px;">VLMs as Robot Agent Evaluations</h2>
     
     <!-- 1. Can a Single VLM Drive a Robot Agent? -->
     <div style="margin-bottom: 60px;">
@@ -638,7 +638,7 @@
       <div style="margin-bottom: 40px;">
         <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Single-VLM Pipeline Comparison</h4>
         <div class="has-text-centered" style="margin-bottom: 18px;">
-          <img src="./static/images/benchmark/exp1_chart.png" alt="Single-VLM Pipeline Comparison" style="width: 80%; max-width: 600px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/exp1_chart.png" alt="Single-VLM Pipeline Comparison" style="width: 80%; max-width: 600px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
         <div style="max-width: 800px; margin: 0 auto;">
           <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">We compare single-VLM baselines under the same agent pipeline to isolate model effects.</p>
@@ -648,7 +648,7 @@
       <!-- Failure Mode Breakdown -->
       <div style="margin-bottom: 40px;">
         <div class="has-text-centered" style="margin-bottom: 20px;">
-          <img src="./static/images/benchmark/exp1_failure_modes.png" alt="Failure Mode Breakdown" style="width: 100%; max-width: 1100px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/exp1_failure_modes.png" alt="Failure Mode Breakdown" style="width: 100%; max-width: 1100px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
         <div style="max-width: 900px; margin: 0 auto;">
           <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">Failure mode breakdown for single-VLM pipelines on the sorting task.</p>
@@ -656,15 +656,15 @@
       </div>
     </div>
     
-    <!-- 2. Module Benchmark -->
+    <!-- 2. Module Evaluation -->
     <div style="margin-bottom: 60px;">
-      <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">2. Module Benchmark</h3>
+      <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">2. Module Evaluation</h3>
       
       <!-- Radar Chart -->
       <div style="margin-bottom: 40px;">
-        <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Modular Benchmark Radar Chart</h4>
+        <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Modular Evaluation Radar Chart</h4>
         <div class="has-text-centered" style="margin-bottom: 20px;">
-          <img src="./static/images/benchmark/submodule_performance_radar.png" alt="Sub-module Performance Comparison" style="width: 100%; max-width: 1100px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/submodule_performance_radar.png" alt="Sub-module Performance Comparison" style="width: 100%; max-width: 1100px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
         <div style="max-width: 1000px; margin: 0 auto;">
           <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">Normalized per-module performance across the pipeline (higher is better). Each axis corresponds to a module score.</p>
@@ -675,7 +675,7 @@
       <div style="margin-bottom: 40px;">
         <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Latency Comparison Across VLMs</h4>
         <div class="has-text-centered" style="margin-bottom: 20px;">
-          <img src="./static/images/benchmark/exp2_submodule_time_comparison.png" alt="Latency Comparison" style="width: 100%; max-width: 1000px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/exp2_submodule_time_comparison.png" alt="Latency Comparison" style="width: 100%; max-width: 1000px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
       </div>
       
@@ -683,7 +683,7 @@
       <div style="margin-bottom: 40px;">
         <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Token Usage Comparison Across VLMs</h4>
         <div class="has-text-centered" style="margin-bottom: 20px;">
-          <img src="./static/images/benchmark/exp2_submodule_token_comparison.png" alt="Token Usage Comparison" style="width: 100%; max-width: 1000px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/exp2_submodule_token_comparison.png" alt="Token Usage Comparison" style="width: 100%; max-width: 1000px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
       </div>
     </div>
@@ -692,7 +692,7 @@
     <div style="margin-bottom: 60px;">
       <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">3. Compositional Pipeline vs. Single VLM</h3>
       <div class="has-text-centered" style="margin-bottom: 20px;">
-        <img src="./static/images/benchmark/exp3_compositional_vs_single_vlm.png" alt="Compositional vs Single VLM" style="width: 90%; max-width: 800px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        <img src="./static/images/evaluation/exp3_compositional_vs_single_vlm.png" alt="Compositional vs Single VLM" style="width: 90%; max-width: 800px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
       </div>
       <div style="max-width: 1000px; margin: 0 auto;">
         <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">We compare a Gemini Flash single-VLM baseline with our compositional pipeline across five manipulation tasks. Performance is measured by a task progress score capturing partial completion.</p>
@@ -715,15 +715,37 @@
         <!-- Performance Comparison Chart -->
         <div class="column is-3">
           <h4 class="title is-5" style="color: #555; margin-bottom: 20px;">Performance Comparison</h4>
-          <img src="./static/images/benchmark/exp5_vla_vs_vlm_comparison.png" alt="VLA vs PLanAR Performance" style="width: 85%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+          <img src="./static/images/evaluation/exp5_vla_vs_vlm_comparison.png" alt="VLA vs PLanAR Performance" style="width: 85%; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
         </div>
       </div>
       <div style="max-width: 1100px; margin: 0 auto;">
         <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">We compare a π0.5 VLA fine-tuned with 40 demonstrations for sorting and 30 for stacking against the PLanAR pipeline on both tasks.</p>
       </div> 
     </div>
+
+    <!-- 5. PLanAR vs. TiPToP -->
+    <div style="margin-bottom: 40px;">
+      <h3 class="title is-4" style="color: #2c3e50; margin-bottom: 30px;">5. PLanAR vs. TiPToP</h3>
+      
+      <div class="has-text-centered" style="margin-bottom: 40px;">
+        <video autoplay muted loop playsinline style="width: 90%; max-width: 900px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <source src="./static/videos/tiptop.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div style="margin-bottom: 40px;">
+        <h4 class="title is-5 has-text-centered" style="color: #555; margin-bottom: 20px;">Performance Comparison</h4>
+        <div class="has-text-centered">
+          <img src="./static/images/evaluation/planar_tiptop.png" alt="PLanAR vs TiPToP Performance" style="width: 90%; max-width: 800px; border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+        </div>
+      </div>
+      <div style="max-width: 1100px; margin: 0 auto;">
+        <p style="font-size: 1rem; line-height: 1.7; color: #666; text-align: center; font-style: italic;">Cross-embodiment evaluation on the Franka robot and comparison with TiPToP on fruit sorting with human disturbance.</p>
+      </div>
+    </div>
   </div>
 </section>
+
 
 <!-- Ablation Study Section -->
 <section class="section is-medium" id="ablation" style="padding-top: 3rem; padding-bottom: 3rem;">
